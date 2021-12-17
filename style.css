@@ -1,0 +1,47 @@
+/* css reset */
+*{
+margin: 0;
+padding: 0;
+}
+.header-fixed{
+    position:fixed;
+    width: 100%;
+}
+header{
+position:absolute;
+top: 20px;
+width: 100%; 
+text-align: right;
+/* position absolute use cheyumbol athu inline akum ( there is no width  So add with into 100%) */
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 80px;
+    position:sticky;
+   
+    
+}
+
+main{
+    height: 100vh;
+    width: 100%; 
+    background-image: url(./large.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+
+
+    background-attachment:fixed;
+}
+
+main h1{
+margin: 0;
+color: white;
+mix-blend-mode:overlay;
+font-size: 60px;
+}
